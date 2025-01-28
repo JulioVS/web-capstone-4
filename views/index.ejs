@@ -4,12 +4,64 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Capstone Project 4</title>
-  <link rel="stylesheet" href="styles/main.css" />
+  <title>Programmer Jokes!</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="stylesheet" href="styles/main.css">
 </head>
 
 <body>
-  <h1>Welcome to Capstone Project 4</h1>
+
+  <!-- Title -->
+  <section id="title">
+
+    <!-- Heroes section -->
+    <div class="container col-xxl-8 pt-5">
+      <div class="row flex-lg-row align-items-center g-5">
+        <div class="col-lg-6">
+          <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">Welcome to the best programmer jokes site!</h1>
+          <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+            <form action="/">
+              <button type="submit" class="btn btn-primary btn-lg px-4 me-md-2">
+                Get Joke
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonial -->
+  <section id="testimonial">
+    <div>
+      <div class="p-5 text-center bg-body-tertiary">
+        <div class="container py-5">
+          <h2 class="text-body-emphasis">
+            <%= setup %>
+          </h2>
+          <h3 class="text-body-emphasis" style="color: blue !important;">
+            <%= delivery %>
+          </h3>
+          <p class="col-lg-8 mx-auto lead mt-2" style="color: lightgrey !important;">
+            [C'mon, admit you laughed at IT!]
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <section id="footer" class="gradient-background">
+    <div class="container">
+      <footer class="row row-cols-1 row-cols-sm-2 row-cols-md-5">
+        <div class="col mb-3">
+          <p class="text-body-secondary">© 2025 APL Designs</p>
+        </div>
+      </footer>
+    </div>
+  </section>
+
 </body>
 
 </html>
